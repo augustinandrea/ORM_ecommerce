@@ -1,20 +1,60 @@
-# E-commerce Back End Starter Code
+# E-commerce Back End
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
+  ## Description
+  In this application, I created a back end for an e-commerce site. The application takes a working Express.js API and configures it to use Sequelize to interact with a MySQL database. You can add, delete, get, and update info in the database. This can be seen through using Insomnia to test the routes.
+  Here is a video of the given example:
 
+  
 
-GIVEN a functional Express.js API
+  ![alt text](note_taker.gif "Note Take Example")
 
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
+  ## Table of Contents
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#license)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
+ 
+  ## Installation
+  Download the github repository and makesure to have all the needed node.js assets.
 
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
+  ## Usage/ How to
+  Note: Make sure to be in the Develop folder before starting.
+1. Open your mysql by inputting "mysql -u 'your username here' -p"
+2. Then you type in your password
+3. Create your db by inputting "source db/schema.sql"
+4. Then quit mysql by typing in "quit;"
+5. Then to put all the needed info into the db, type "npm run seed"
+6. Then to run on the local host, you can type either "node server.js" or "npm start"
 
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
+  
+  ## License 
+  ISC:
+  https://opensource.org/licenses/ISC
+  
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+  Copyright© [2021] [augustinandrea] 
+
+      Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+      THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.      
+        
+
+  ## Contributing
+  Andrea Augustin
+
+  ## Tests
+  None currrently
+
+  
+  ## Questions
+  Contact me through my gmail.
+
+  **GitHub**: [@augustinandrea](https://github.com/augustinandrea)
+  
+
+  **Email**: augustin.andrea@gmail.com

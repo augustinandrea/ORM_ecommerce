@@ -4,10 +4,11 @@
   ## Description
   In this application, I created a back end for an e-commerce site. The application takes a working Express.js API and configures it to use Sequelize to interact with a MySQL database. You can add, delete, get, and update info in the database. This can be seen through using Insomnia to test the routes.
   Here is a video of the given example:
+  https://youtu.be/4ExAmZuV0XY
 
-  
 
-  ![alt text](note_taker.gif "Note Take Example")
+  ![alt text](./assets/starting_up.gif "Starting the process")
+  ![alt text](./assets/example_test.gif "Testing")
 
   ## Table of Contents
   * [Description](#Description)
